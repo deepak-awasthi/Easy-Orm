@@ -27,6 +27,7 @@ catch (PDOException $e){
 }
 
 //function number 1
+//reading all the datas
 public function select_all($table){
 
 	$sql="select * from $table";
